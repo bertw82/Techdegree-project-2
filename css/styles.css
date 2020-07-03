@@ -1,0 +1,309 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Cabin Condensed', sans-serif;
+  color: darkslategray;
+  background: #f7f5f0;
+}
+
+main {
+  background-color: #f5fffa;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1,
+h4 {
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  padding: 1em 0;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+	font-size: 1.1rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, 
+h2 {
+  font-family: Arial, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* ================================= 
+  images
+==================================== */
+
+img {
+  max-width: 100%;
+}
+
+.profile-image {
+  width: 75%;
+  margin: 2.5em 0;  
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---navigation--- */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: .625em;
+  margin-top: .3125em;
+  margin-bottom: .3125em;
+  color: darkslategray;
+  background-color: white;
+}
+
+/* ---containers--- */
+
+.header-container,
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#contact {
+  background-color:  #f7f5f0;
+}
+
+.footer-nav {
+  display: none;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 2px solid rgba(0, 0, 0, .3);
+}
+
+.name {
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.top a {
+  color: darkslategray;
+  background-color: inherit;
+  padding-top: 2em;
+  font-size: 0.8rem;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 321px) {
+
+  .main-nav li {
+    float: left;
+  }
+
+  .main-nav ul {
+    display: inline-block;
+  }
+
+  .main-nav a {
+    background-color: initial;
+    padding-right: 2em;
+  }
+
+  .main-nav li:last-child a {
+    padding-right: 0;
+  }
+
+  .profile p {
+    float: left;
+    width: 60%;
+    padding-top: 2.5em;
+    padding-right: 1em;
+  }
+
+  .profile-image {
+    float: right;
+    width: 40%;
+  }
+
+  .header-container {
+    overflow: hidden;
+  }
+
+  .marketing {
+    float: left;
+    width: 50%;
+    padding-right: .625em;
+  }
+
+  .search {
+    float: right;
+    width: 50%;
+    padding-right: .625em;
+  }
+
+  .travel {
+    float: left;
+    width: 50%;
+    padding-right: .625em;
+    clear: both;
+  }
+
+  .tour {
+    float: right;
+    width: 50%;
+    padding-right: .625em;
+  }
+
+  .photo {
+    float: left;
+    width: 50%;
+    padding-right: .625em;
+    clear: both;
+  }
+
+  .calculator {
+    float: right;
+    width: 50%;
+    padding-right: .625em;
+  }
+
+  .marketing p,
+  .search p,
+  .travel p,
+  .tour p,
+  .photo-gallery p,
+  .calculator p {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+
+  #contact p {
+    width: 80%;
+    margin: 0 auto 2em;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .footer-nav {
+    display: initial;
+    float: right;
+  }
+
+  .footer-nav li {
+    display: inline-block;
+  }
+
+  .footer-nav a {
+    background-color: #f7f5f0;
+    padding-left: 1em;
+    padding-top: 1.425em;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .student {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .main-nav a {
+    padding-top: 2.625em;
+  }
+
+  .profile p {
+    text-align: left;
+    width: 55%;
+    font-size: 1.25rem;
+    padding-top: 1em;
+  }
+
+  .profile-image {
+    margin-top: 1.5em;
+  }
+
+  main {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .marketing,
+  .search,
+  .travel {
+    float: left;
+    width: 33.333%;
+    clear: none;
+  }
+
+  .tour,
+  .photo,
+  .calculator {
+    float: left;
+    width: 33.333%;
+    clear: none;
+  }
+
+  #contact p {
+    width: 40%;
+  }
+
+  footer {
+    width: 85%;
+  }
+}
+
+/* ---clearfix--- */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
