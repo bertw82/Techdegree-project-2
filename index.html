@@ -27,63 +27,67 @@
   </header>
 
   <main>
-    <div class="main-container clearfix">
-      <h2 id="portfolio">Portfolio</h2>
+    <div class="primary-content">
+      <div class="main-container clearfix">
+        <h2 id="portfolio">Portfolio</h2>
 
-      <div class="marketing">
-        <img src="images/portfolio-1.png" alt="picture of a marketing webpage">
-        <h3>Marketing Page</h3>
-        <p>I created this project to show the front page of a particular business that interests me.</p>
-      </div>
+        <div class="marketing">
+          <img src="images/portfolio-1.png" alt="picture of a marketing webpage">
+          <h3>Marketing Page</h3>
+          <p>I created this project to show the front page of a particular business that interests me.</p>
+        </div>
 
-      <div class="search">
-        <img src="images/portfolio-2.png" alt="picture of a search web page">
-        <h3>Search Page</h3>
-        <p>I created this project to search through a datatbase to find specific information that the user is trying to find.</p>
-      </div>
+        <div class="search">
+          <img src="images/portfolio-2.png" alt="picture of a search web page">
+          <h3>Search Page</h3>
+          <p>I created this project to search through a datatbase to find specific information that the user is trying to find.</p>
+        </div>
 
-      <div class="travel">
-        <img src="images/portfolio-3.png" alt="picture of a travel app">
-        <h3>Travel App</h3>
-        <p>I created this project to compare travel times for different forms of transportation, and to tell the user which is the most efficient.</p>
-      </div>
+        <div class="travel">
+          <img src="images/portfolio-3.png" alt="picture of a travel app">
+          <h3>Travel App</h3>
+          <p>I created this project to compare travel times for different forms of transportation, and to tell the user which is the most efficient.</p>
+        </div>
 
-      <div class="tour">
-        <img src="images/portfolio-4.png" alt="picture of a map">
-        <h3>Map of Favorite Spots</h3>
-        <p>I created this project for a do-it-yourself walking tour. It uses a mapping apis to show my favorite spots in the city.</p>
-      </div>
+        <div class="tour">
+          <img src="images/portfolio-4.png" alt="picture of a map">
+          <h3>Map of Favorite Spots</h3>
+          <p>I created this project for a do-it-yourself walking tour. It uses a mapping apis to show my favorite spots in the city.</p>
+        </div>
 
-      <div class="photo">
-        <img src="images/portfolio-5.png" alt="picture of a photo gallery">
-        <h3>Photo Gallery</h3>
-        <p>I created this project to show pictures from a recent trip to a viewer and allow them to easily navigate through the photos.</p>
-      </div>
-    
-      <div class="calculator">
-        <img src="images/portfolio-6.png" alt="picture of a calculation function">
-        <h3>Calculator</h3>
-        <p>This project allows a user to enter in numbers they want, perform a calculation, and press a big blue button to get the result.</p>
+        <div class="photo">
+          <img src="images/portfolio-5.png" alt="picture of a photo gallery">
+          <h3>Photo Gallery</h3>
+          <p>I created this project to show pictures from a recent trip to a viewer and allow them to easily navigate through the photos.</p>
+        </div>
+      
+        <div class="calculator">
+          <img src="images/portfolio-6.png" alt="picture of a calculation function">
+          <h3>Calculator</h3>
+          <p>This project allows a user to enter in numbers they want, perform a calculation, and press a big blue button to get the result.</p>
+        </div>
       </div>
     </div>
 
-    <section>
-      <div id="skills" class="clearfix">
-        <h2>Skills</h2>
-        <p>I am proficient in HTML, CSS, and JavaScript and am able to build apps and websites to fit your needs.</p>
-        <p>Click on the button below to check out my latest project on GitHub!</p>
-        <a class="button" href="https://github.com/bertw82/portfolio-project-1">Click here</a>
-      </div>
-    </section>
+    <div class="secondary-content clearfix">
+      <section>
+        <div id="skills" >
+          <h2>Skills</h2>
+          <p>I am proficient in HTML, CSS, and JavaScript and am able to build apps and websites to fit your needs.</p>
+          <p>Click on the button below to check out my latest project on GitHub!</p>
+          <a class="button" href="https://github.com/bertw82/portfolio-project-1">Click here</a>
+        </div>
+      </section>
 
-    <section>
-      <div id="contact" class="clearfix">
-        <h2>Contact</h2>
-        <p>If you would like to talk more about my experience and what I can bring to your web development firm, please contact me:</p>
-        <p>Phone&nbsp;&nbsp;<strong>1+&nbsp;(123) 456-7890</strong></p>
-        <p>Email&nbsp;&nbsp;<strong>fakeemail@gmail.com</strong></p>
-      </div>
-    </section>
+      <section>
+        <div id="contact">
+          <h2>Contact</h2>
+          <p>If you would like to talk more about my experience and what I can bring to your web development firm, please contact me:</p>
+          <p>Phone&nbsp;&nbsp;<strong>1+&nbsp;(123) 456-7890</strong></p>
+          <p>Email&nbsp;&nbsp;<strong>fakeemail@gmail.com</strong></p>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer>
@@ -96,8 +100,9 @@
       <nav class="footer-nav">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
   </footer>
