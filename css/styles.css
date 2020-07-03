@@ -44,6 +44,7 @@ h1 {
 h1,
 h4 {
   font-family: 'Lobster', cursive;
+  color: #008b8b;
 }
 
 h2 {
@@ -115,13 +116,14 @@ nav a {
   margin-top: .3125em;
   margin-bottom: .3125em;
   color: darkslategray;
-  background-color: white;
+  background-color: #dcdcdc;
+  border-radius: .3125em;
 }
 
 .button {
     background-color: #191970;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125em;
     color: white;
     padding: 1em 1.625em;
     text-align: center;
