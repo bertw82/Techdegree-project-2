@@ -75,7 +75,8 @@ a {
 }
 
 a, 
-h2 {
+h2,
+.button {
   font-family: Arial, serif;
   font-weight: bold;
   font-size: 1rem;
@@ -120,6 +121,20 @@ nav a {
   background-color: white;
 }
 
+.button {
+    background-color: #191970;
+    border: none;
+    color: white;
+    padding: 1em 1.625em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+  background-color: rgb(166, 158, 243, .4);
+}
+
 /* ---containers--- */
 
 .header-container,
@@ -129,6 +144,15 @@ nav a {
 }
 
 #contact {
+  border-top: 2px solid rgba(0, 0, 0, .3);
+}
+
+#skills {
+  padding-bottom: 2em;
+}
+
+#contact,
+#skills {
   background-color:  #f7f5f0;
 }
 
@@ -245,7 +269,8 @@ footer {
     padding-bottom: 3em;
   }
 
-  #contact p {
+  #contact p,
+  #skills p {
     width: 80%;
     margin: 0 auto 2em;
   }
@@ -316,7 +341,8 @@ footer {
     clear: none;
   }
 
-  #contact p {
+  #contact p,
+  #skills p {
     width: 40%;
   }
 
