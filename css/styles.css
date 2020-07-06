@@ -138,12 +138,12 @@ nav a {
 /* ---containers--- */
 
 .header-container,
-.primary-content {
+.main-container {
   width: 90%;
   margin: 0 auto;
 }
 
-.main-container {
+.primary-content {
   background-color: #f5fffa;
 }
 
@@ -325,10 +325,6 @@ nav a {
     margin-top: 1.5em;
   }
 
-  .header-container {
-    overflow: hidden;
-  }
-
   .main-container {
     width: 95%;
     margin: 0 auto;
@@ -360,13 +356,13 @@ nav a {
   }
 }
 
-.header-container,
+/* .header-container,
 .main-container,
 .footer-container {
   max-width: 1150px;
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 /* ---clearfix--- */
 
