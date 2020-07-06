@@ -236,46 +236,46 @@ nav a {
   .marketing {
     float: left;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
   }
 
   .search {
     float: right;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
   }
 
   .travel {
     float: left;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
     clear: both;
   }
 
   .tour {
     float: right;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
   }
 
   .photo {
     float: left;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
     clear: both;
   }
 
   .calculator {
     float: right;
     width: 50%;
-    padding-right: .625em;
+    padding: .3125em;
   }
 
   .marketing p,
   .search p,
   .travel p,
   .tour p,
-  .photo-gallery p,
+  .photo p,
   .calculator p {
     width: 80%;
     margin: 0 auto;
@@ -352,6 +352,15 @@ nav a {
     float: left;
     width: 33.333%;
     clear: none;
+  }
+
+  .marketing,
+  .search,
+  .travel,
+  .tour,
+  .photo,
+  .calculator {
+    padding: .625em;
   }
 
   #contact p,
