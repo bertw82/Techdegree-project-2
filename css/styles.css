@@ -165,7 +165,7 @@ nav a {
   display: none;
 }
 
-footer {
+.footer-container {
   width: 90%;
   margin: 0 auto;
   border-top: 2px solid rgba(0, 0, 0, .3);
@@ -325,7 +325,11 @@ footer {
     margin-top: 1.5em;
   }
 
-  main {
+  .header-container {
+    overflow: hidden;
+  }
+
+  .main-container {
     width: 95%;
     margin: 0 auto;
   }
@@ -351,7 +355,7 @@ footer {
     width: 43%;
   }
 
-  footer {
+  .footer-container {
     width: 85%;
   }
 }
@@ -361,7 +365,7 @@ footer {
 .footer-container {
   max-width: 1150px;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* ---clearfix--- */
