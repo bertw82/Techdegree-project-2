@@ -63,7 +63,6 @@ h4 {
 p {
 	font-size: 1.1rem;
   line-height: 1.4;
-  margin-top: 0;
   margin-bottom: 2em;
 }
 
@@ -138,13 +137,18 @@ nav a {
 /* ---containers--- */
 
 .header-container,
-.main-container {
+.primary-content {
   width: 90%;
   margin: 0 auto;
 }
 
-.primary-content {
-  background-color: #f5fffa;
+.profile {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.primary-background {
+  background-color: #ffffe0;
 }
 
 #contact {
@@ -212,9 +216,11 @@ nav a {
   .profile p {
     float: left;
     width: 60%;
-    padding-top: 2.3125em;
+    padding-top: 1em;
     padding-right: 1em;
-  }
+    font-size: 1.3125rem;
+    text-align: left;
+}
 
   .profile-image {
     float: right;
@@ -222,7 +228,9 @@ nav a {
   }
 
   .header-container {
-    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    /* overflow: hidden; */
   }
 
   .marketing {
@@ -318,7 +326,7 @@ nav a {
     text-align: left;
     width: 55%;
     font-size: 1.5625rem;
-    padding-top: 1em;
+    padding-top: inherit;
   }
 
   .profile-image {
@@ -356,13 +364,13 @@ nav a {
   }
 }
 
-/* .header-container,
+.header-container,
+.profile,
 .main-container,
 .footer-container {
   max-width: 1150px;
-  width: 80%;
   margin: 0 auto;
-} */
+}
 
 /* ---clearfix--- */
 
