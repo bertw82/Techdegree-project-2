@@ -48,7 +48,7 @@ h4 {
 }
 
 h2 {
-  padding: 1em 0;
+  padding: 2em 0 1em 0;
 }
 
 h3 {
@@ -93,8 +93,8 @@ img {
 }
 
 .profile-image {
-  width: 75%;
-  margin: 2.5em 0;  
+  width: 85%;
+  margin: 2.5em 0 1em 0;  
 }
 
 /* ================================= 
@@ -215,8 +215,8 @@ nav a {
 
   .profile p {
     float: left;
-    width: 60%;
-    padding-top: 1em;
+    width: 56%;
+    padding-top: .6125em;
     padding-right: 1em;
     font-size: 1.3125rem;
     text-align: left;
@@ -225,6 +225,7 @@ nav a {
   .profile-image {
     float: right;
     width: 40%;
+    margin: 2em 0;
   }
 
   .header-container {
@@ -310,6 +311,10 @@ nav a {
 
 @media (min-width: 1024px) {
 
+  h2 {
+    padding: 2em 0 .3125em 0;
+  }
+  
   .student {
     float: left;
   }
@@ -330,7 +335,7 @@ nav a {
   }
 
   .profile-image {
-    margin-top: 1.5em;
+    margin: 1.5em 0 2.5em 0;
   }
 
   .main-container {
